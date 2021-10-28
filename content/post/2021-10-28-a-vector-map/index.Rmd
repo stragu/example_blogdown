@@ -35,7 +35,7 @@ The tmap package is useful to visualise vector data on a slippy map.
 ```{r}
 tmap_mode("view")
 tm_shape(green_space) +
-  tm_polygons(col = c("#43C467"), alpha = 0.5)
+  tm_polygons(col = "#43C467", alpha = 0.5)
 ```
 
 > Data is [copyright OSM contributors but release under an ODBL licence](https://www.openstreetmap.org/copyright).
