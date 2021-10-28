@@ -13,6 +13,7 @@ green_space <- opq("Meanjin") %>%
 
 # process the data
 library(dplyr)
+library(sf)
 # only keep simple polygons
 green_areas <- green_space$osm_polygons %>% 
   # recode the type of area
