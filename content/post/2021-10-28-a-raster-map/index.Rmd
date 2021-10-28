@@ -35,7 +35,7 @@ rain
 
 One single band, by default with the WGS 84 CRS.
 
-The average rainfall for the whole raster is `r mean(values(rain))` mm.
+The average rainfall for the whole raster is `r rain |> values() |> mean() |> round(2)` mm.
 
 ## Visualise
 
